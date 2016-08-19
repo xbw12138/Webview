@@ -6,5 +6,5 @@
 3.404界面
 4.视频播放
 
-![image](http://img.blog.csdn.net/20160819131706371)
-![image](http://img.blog.csdn.net/20160819131751934)
+![image](http://img.blog.csdn.net/20160819132221951)
+![image](http://img.blog.csdn.net/20160819132239045)
