@@ -30,6 +30,8 @@ public class WebActivity extends Activity {
         pb = (ProgressBar) findViewById(R.id.pb);
         pb.setMax(100);
         webView = (VideoEnabledWebView) findViewById(R.id.webView);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
         View nonVideoLayout = findViewById(R.id.nonVideoLayout); // Your own view, read class comments
         ViewGroup videoLayout = (ViewGroup) findViewById(R.id.videoLayout); // Your own view, read class comments
         View loadingView = getLayoutInflater().inflate(R.layout.view_loading_video, null); // Your own view, read class comments
